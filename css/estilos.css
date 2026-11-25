@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(red, green, blue, alpha);
+}
+h1{
+    text-align: center;
+    background-color: #8B0000;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius:25px;
+}
+.contenedor{
+    grid-template-columns: repeat(2,350px);
+    display: grid;
+    gap:20px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+.remodelacion{
+    padding: 5px;
+    margin: 1px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: burlywood;
+}
+.contexto img{
+    width: 400px;
+    height: 280px;
+}
+.contexto{
+    text-align: center;
+}
+.historias{
+    padding: 20px;
+    margin: 10px;
+    background-color: coral;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+}
+.cuadros{
+    grid-template-columns: repeat(2,400px);
+    display: grid;
+    gap: 60px;
+    padding: 5px;
+    margin: 1px;
+    justify-content: center;
+    text-align: center;
+}
+.imagenes{
+    background-color: darkkhaki;
+    border-radius: 30px;
+}
+.imagenes img{
+    width: 350px;
+    height: 250px;
+}
+.premios{
+    grid-template-columns: repeat(3,400px);
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+.regalos{
+    background-color: darkkhaki;
+    border-radius: 20px;
+    text-align: center;
+}
+.navidad{
+    grid-template-columns: repeat(3,400px);
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
